@@ -6,6 +6,6 @@
 import { TemplateRef } from '@angular/core';
 
 /**
- * A joined type of string and `TemplateRef<void>`.
+ * A joined type of string and `TemplateRef<unknown>`.
  */
-export type NzTSType = string | TemplateRef<void>;
+export type NzTSType = string | TemplateRef<unknown>;
